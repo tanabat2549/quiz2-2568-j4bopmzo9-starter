@@ -2,15 +2,15 @@
 import { Button, Stack, Title, Divider, Container } from "@mantine/core";
 //import { v4 as uuidv4 } from "uuid";
 
-type FoodItem = {
-  id: string;
-  name: string;
-  price: number | string;
-  quantity: number | string;
-  category: string;
-};
+// type FoodItem = {
+//   id: string;
+//   name: string;
+//   price: number | string;
+//   quantity: number | string;
+//   category: string;
+// };
 
-export default function FoodTracker(props: FoodItem) {
+export default function FoodTracker() {
   //const [opened, setOpened] = useState(false);
   //const [items, setItems] = useState<FoodItem[]>([]);
   //const categories = ["Main Course", "Drink", "Dessert"];

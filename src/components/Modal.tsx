@@ -15,8 +15,8 @@ type AddFoodModalProps = {
 export default function AddFoodModal({
   opened,
   onClose,
-  onAdd,
-}: AddFoodModalProps) {
+}: //onAdd,
+AddFoodModalProps) {
   const [name, setName] = useState<string>("");
   const [price, setPrice] = useState<number | string>(0);
   const [quantity, setQuantity] = useState<number | string>(0);
