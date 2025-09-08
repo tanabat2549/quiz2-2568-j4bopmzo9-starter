@@ -9,27 +9,25 @@
   margin-bottom: var(--mantine-spacing-md);
   font-family: Outfit, var(--mantine-font-family);
   color: rgb(0, 255, 38);
-  @media (max-width:47.99em) {
+  @media (max-width: 47.99em) {
     font-size: 32px;
     color: rgb(255, 162, 0);
   }
 }
 
 .control {
-  @media (max-width:47.99em) {
+  @media (max-width: 47.99em) {
     width: 100%;
   }
 }
- .mobileImage {
-    @media (min-width:48em) {
-     display: none !important; 
+.mobileImage {
+  @media (min-width: 48em) {
+    display: none !important;
   }
-
 }
 
 .desktopImage {
-   @media(max-width:47.99em) {
-     display: none !important;
-  
+  @media (max-width: 47.99em) {
+    display: none !important;
   }
 }

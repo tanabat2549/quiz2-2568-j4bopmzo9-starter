@@ -12,9 +12,6 @@ type FoodProps = {
 
 export default function ItemCard(props: FoodProps) {
   // หากต้องการเปลี่ยนแปลง type ชนิด string เป็น number สามารถใช้วิธีการดังโค้ดตัวอย่างด้านล่างนี้ได้
-  
-  
-  
 
   return (
     <Card>
